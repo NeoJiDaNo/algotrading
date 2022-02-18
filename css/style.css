@@ -1,6 +1,6 @@
 .container {
-  width: 85%;
-  max-width: 1256px;
+  width: 100%;
+  max-width: 1140px;
   margin: auto;
 }
 
@@ -405,6 +405,15 @@ template {
   color: #000;
 }
 
+.header__phone {
+  color: #000;
+  font-size: 16px;
+}
+
+.header__phone-gray {
+  color: #777;
+}
+
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -421,5 +430,23 @@ template {
 .logo__text {
   text-transform: uppercase;
   margin-left: 12px;
+  font-size: 16px;
+}
+
+.hero__bg {
+  background: url("../img/hero-bg.png") no-repeat center/cover;
+}
+
+.hero__text {
+  margin-top: 178px;
+}
+
+.hero__text-h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.hero__text-p {
+  margin-top: 29px;
 }
 /*# sourceMappingURL=style.css.map */
